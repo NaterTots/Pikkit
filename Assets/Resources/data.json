@@ -1,0 +1,56 @@
+{
+  "settings": [
+    {
+      "name": "FullScreen",
+      "datatype": 0,
+      "value": "1"
+    },
+	{
+      "name": "SoundEffectsVolume",
+      "datatype": 2,
+      "value": "1"
+    },
+	{
+      "name": "MusicVolume",
+      "datatype": 2,
+      "value": "1"
+    }
+  ],
+  "terrainconfiguration":
+  {
+  	  "World" :
+	  {
+	  	  "width" : 10,
+		  "height" : 10
+	  },
+	  "Biome" :
+	  {
+	  	  "floodFillIncrement" : 1,
+		  "biomeTypeCount" : 4,
+		  "biomeCount" : 10,
+		  "initialFloodFillAmount" : 3,
+		  "biomeSequencePerLevel" : 5
+	  }
+  },
+  "playerconfiguration" :
+  {
+  	  "Movement" :
+	  {
+	  	  "speed" : 4.0
+	  }
+  },
+  "enemyconfiguration" : [
+    {
+		"enemyid" : 1,
+		"name" : "Sphere Enemy",
+		"model" : "SphereEnemy",
+		"speed" : 2.0
+    },
+	{
+		"enemyid" : 2,
+		"name" : "Pyramid Enemy",
+		"model" : "PyramidEnemy",
+		"speed" : 1.0
+    }
+  ]
+}
